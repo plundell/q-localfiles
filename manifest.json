@@ -1,0 +1,35 @@
+{
+	"name":"Local files"
+	,"description":"Play files from USB flashdrive or HDD"
+	,"version":"1.0.0"
+	,"type":"player"
+	,"scope":[
+		"BetterLog"
+		,"BetterEvents"
+		,"util.cX"
+		,"util.cpX"
+		,"util.fsX"
+		,"api.local.ffprobe"
+	]
+	,"main":"local.player.js"
+	,"simultaneousPlay":true
+	,"online":false
+	,"infinitLibrary":false
+	,"uriPrefix":"file"
+	,"settings":{
+		"paths":{	
+			"type":"table"
+			,"description":"Where is your music stored"
+			,"add":true
+			,"remove":true
+			,"fields":{
+				"path":{}
+			}
+		}
+		,"includeVideo":{
+			"type":"toggle"
+			,"description":"Scan video files for audio tracks"
+			,"default":false
+		}
+	}
+}
