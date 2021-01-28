@@ -6,10 +6,12 @@
 	,"scope":[
 		"BetterLog"
 		,"BetterEvents"
-		,"util.cX"
-		,"util.cpX"
-		,"util.fsX"
-		,"api.local.ffprobe"
+		,"BetterUtil.cX.trim"
+		,"BetterUtil.fsX.path"
+		,"BetterUtil.fsX.exists"
+		,"BetterUtil.fsX.find"
+		,"BetterUtil.fsX.fileExtType"
+		,"api.apps.q-ffprobe.ffprobe"
 	]
 	,"main":"local.player.js"
 	,"simultaneousPlay":true
